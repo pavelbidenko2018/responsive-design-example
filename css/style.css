@@ -22,6 +22,7 @@ h1 {
     text-align: center;
 }
 
+
 h1 span {
     color: #ddc850;
 }
@@ -31,6 +32,7 @@ h2 {
     font-size: 1.5rem;
     color: #707070;
 }
+
 
 p {
     margin-top: 0;
@@ -45,10 +47,10 @@ p {
     align-items: baseline;
 }
 
-
 .col-1 {
     width: 20%;
 }
+
 
 .col-2 {
     width: 50%;
@@ -63,4 +65,29 @@ p {
     padding: .5em;
     margin: 1em 0;
     color: white;
+}
+
+@media (max-width: 600px) {
+    
+    body {
+        font-size: 1rem;
+    }
+
+    .columns {
+        flex-direction: column;
+            
+    }
+
+    .col-1, 
+    .col-2, 
+    .col-3 {width: 100%;}
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.125rem;
+        }
+
 }
