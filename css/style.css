@@ -12,14 +12,10 @@ body {
     background-color: white;
 }
 
-.columns {
-    display: flex;
-}
-
 img {
     width: 100%;
 }
-/** typogrqphy *//
+/* typogrqphy */
 h1 {
     font-size: 3rem;
     color: #312614;
@@ -38,6 +34,28 @@ h2 {
 
 p {
     margin-top: 0;
+}
+
+
+/* flexing */
+.columns {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.col-1 {
+    width: 20%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 74%;
 }
 
 .col-bg {
